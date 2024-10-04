@@ -1,0 +1,342 @@
+/*
+ * This is the main css file that ships with the airspace theme.
+ * In airspace, it is called style.css
+ * However, style.css now holds additional styles for this jekyll port. (Not written by ThemeFisher)
+ * The original style.css is now called airspace.css
+ * 
+ */
+
+@import url(//fonts.googleapis.com/css?family=Open+Sans:400,300,600);
+@import url(//fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap);
+@import url(//fonts.googleapis.com/css2?family=Lora:400,300,600);
+@import url(//fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap);
+
+
+/*--
+	Common Css
+--*/
+body {
+  font-family: 'Urbanist', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  padding-top: 20px;
+  padding-right: 10.5vw;
+  padding-bottom: 40px;
+  padding-left: 10.5vw;
+}
+
+h1 {
+  font-family: 'Afacad Flux', sans-serif;
+}
+
+h2 {
+  font-family: 'Afacad Flux', sans-serif;
+  font-size: 20px;
+}
+
+hr {
+  border-top: 1px solid rgb(204, 203, 203);
+  margin-left: 0;
+
+
+}
+
+/*--
+	Header Start
+--*/
+header {
+  font-family: 'Urbanist', sans-serif;
+  text-align: left;
+  padding-bottom: 10px;
+  text-align: left;
+  padding-left: 0;
+}
+
+header .navbar {
+  background: none;
+  border: 0px;
+  position: relative;
+}
+
+header .navbar .name {
+  font-family: 'Urbanist', sans-serif;
+  font-size: 50px;
+  font-weight: 500;
+  color: #22251a !important;
+  position: relative;
+  text-decoration: none;
+
+}
+
+header .navbar ul {
+  position: relative;
+  text-align: left;
+  padding-left: 3px;
+}
+
+header .navbar ul li  {
+  display: inline;
+  margin: 0;
+}
+
+header .navbar ul li a {
+  color:#8d8d8d;
+  font-size: 15px;
+  font-weight: 200;
+  margin: 0;
+  padding-right: 20px;
+}
+
+header .navbar .divider {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+header .navbar li a:hover {
+  color:  #000000 !important;
+  text-decoration: none;
+}
+
+/*---------------------------------------------
+					Index Start
+-----------------------------------------------*/
+
+/*--
+	Intro Start
+--*/
+#intro {
+  font-family: 'Urbanist', sans-serif;
+  text-align: center;
+  padding-left: 2px;
+}
+
+#intro img {
+  max-width: 75%;
+  text-align: left;
+  padding: 0;
+
+}
+  
+#intro .headshot {
+  height: 100%;
+  text-align: justify;
+  position: relative;
+}
+#intro .block {
+  height: 100%;
+  text-align: justify;
+  position: relative;
+  padding-right: 20vw;
+}
+
+
+#intro .block a {
+  color: black;
+  text-decoration: underline;
+  padding-right: 20vw;
+}
+
+#intro .block p {
+  color: #22251a ;
+  line-height: 20px;
+  padding-right: 20vw;
+}
+
+
+
+
+
+/*--
+	Global header start
+--*/
+
+#global-header {
+  position: relative;
+  padding: 0;
+}
+
+    
+#global-header .block {
+  color: #000000;
+  font-family: 'Urbanist', sans-serif;
+  font-weight: 300;
+  font-size: 30px;
+  text-align: left;
+
+}
+
+#global-header .block h1 {
+  font-weight: 300;
+  font-size: 30px;
+  text-align: left;
+  padding: 0;
+  text-transform: uppercase;
+}
+
+
+
+#global-header .block p {
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  word-spacing: 3px;
+}
+
+
+
+/*--
+	Work Start - for writing, possibly also for talks and teaching?
+--*/
+
+#writingandpres {
+  overflow: hidden;
+}
+
+#writingandpres h2 {
+  padding-bottom: 20px;
+  font-weight: 400;
+  text-transform: uppercase;
+
+}
+
+/*---------------------------------------------
+					Work Close
+-----------------------------------------------*/
+/*=============================================*/
+/*---------------------------------------------
+					 Contact Start
+-----------------------------------------------*/
+/*--
+	slider-contact Start
+--*/
+#slider-contact {
+  background: url("../img/slider-bg.jpg") no-repeat;
+  background-size: cover;
+  padding-top: 150px;
+  padding-bottom: 107px;
+  position: relative;
+}
+#slider-contact:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to left, #928dab, #1f1c2c 70%);
+  opacity: 0.8;
+}
+#slider-contact .block {
+  color: #E3E3E4;
+  margin: 0 auto;
+  padding-left: 90px;
+}
+#slider-contact .block h1 {
+  font-family: 'urbanist', sans-serif;
+  font-weight: 100;
+  font-size: 45px;
+  line-height: 60px;
+  letter-spacing: 6px;
+  padding-bottom: 15px;
+}
+#slider-contact .block p {
+  font-size: 23px;
+  line-height: 40px;
+  font-family: 'urbanist', sans-serif;
+  font-weight: 300;
+  letter-spacing: 1px;
+  word-spacing: 3px;
+}
+
+
+/*---------------------------------------------
+					Contact Close
+-----------------------------------------------*/
+/*--------- Heading------------*/
+.heading {
+  padding-bottom: 60px;
+  text-align: center;
+}
+.heading h2 {
+  color: #000;
+  font-size: 30px;
+  line-height: 40px;
+  font-weight: 400;
+}
+.heading p {
+  font-size: 18px;
+  line-height: 40px;
+  color: #292929;
+  font-weight: 300;
+}
+/*---------------------------*/
+/*--
+	footer Start
+--*/
+footer {
+  padding-top: 48px;
+  padding-bottom: 55px;
+  position: relative;
+  margin: 0;
+  padding-left: 0;
+  font-family: 'Afacad Flux', sans-serif;
+  text-transform: uppercase;
+
+}
+footer p {
+  font-size: 13px;
+  line-height: 25px;
+  color: #919191;
+}
+footer a {
+  color:#919191
+}
+
+footer .footer-menu {
+  padding-bottom: 25px;
+}
+footer .footer-menu ul {
+  margin: 0px;
+  padding: 0px;
+}
+footer .footer-menu ul li {
+  display: inline-block;
+  padding-right: 20px;
+}
+footer .footer-menu ul li a {
+  display: inline-block;
+  color:#a8a7a7
+}
+footer .footer-menu ul li a:hover {
+  color: #000;
+  text-decoration: none;
+}
+
+/*--
+Back to top button
+--*/
+#myBtn {
+  position: relative;
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: white; /* Set a background color */
+  color: #22251a; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 5px; /* Rounded corners */
+
+}
+
+#myBtn:hover {
+  color: #971d15; /* Add a dark-grey background on hover */
+  text-decoration: underline !important;
+}
+
+#button .center {
+  position:relative; 
+  margin-left:-60px;
+  left:50%;
+  width:200px;
+  bottom:10px;
+}

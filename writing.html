@@ -1,0 +1,56 @@
+---
+layout: page
+title: Writing and Presentations
+permalink: /writing/
+---
+<!-- Slider Start -->
+<section id="global-header">
+
+  <div class="block">
+
+  </div>
+</section>
+
+<section id="writingandpres">
+
+  <h2>Essays</h2>
+
+    <div class="item">
+  
+      {% for essay in site.data.essays %}
+        <p>&#x2022;   "{{ essay.title }}," in {{ essay.pub }}, {{ essay.date }}</p>
+    </div>
+    {% endfor %}
+  </div>
+  <h2>Reviews</h2>
+ 
+    <div class="item">
+    {% for review in site.data.reviews %}
+      <p>&#x2022;   {{ review.title }}, for {{ review.pub }}, {{ review.date }}</p>
+    </div>
+  {% endfor %}
+
+
+ <h2>Presentations</h2>
+
+   <div class="item">
+   {% for talk in site.data.talks %}
+     <p>&#x2022;   "{{ talk.title }}" - {{ talk.loc }}, {{ talk.date }}</p>
+   </div>
+ {% endfor %}
+</div>
+
+<footer>
+
+  <div class="footer-menu">
+    
+    <ul>
+      <li><a href="{{ site.baseurl }}/index">About</a></li>
+      <li><a href="{{ site.baseurl }}/writing">Writing & Presentaitons</a></li>
+      <li><a href="{{ site.baseurl }}/resources">Resources</a></li>
+      <li><a href="{{ site.baseurl }}/contact">Contact</a></li>
+    </ul>
+  </div>
+ 
+</footer>
+
