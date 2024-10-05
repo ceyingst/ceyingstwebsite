@@ -22,6 +22,4 @@ logo: "/assets/logo.png"
 # Build settings
 markdown: kramdown
 
-# Google analytics
-# ga_tracking_id: "UA-XXXX-1"
 

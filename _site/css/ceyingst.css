@@ -18,10 +18,9 @@
 body {
   font-family: 'Urbanist', sans-serif;
   -webkit-font-smoothing: antialiased;
-  padding-top: 20px;
-  padding-right: 10.5vw;
-  padding-bottom: 40px;
-  padding-left: 10.5vw;
+  padding-left: 20vw;
+  padding-right: 20vw;
+
 }
 
 h1 {
@@ -37,9 +36,11 @@ hr {
   border-top: 1px solid rgb(204, 203, 203);
   margin-left: 0;
 
-
 }
 
+container {
+  width: 100%;
+}
 /*--
 	Header Start
 --*/
@@ -80,16 +81,12 @@ header .navbar ul li  {
 
 header .navbar ul li a {
   color:#8d8d8d;
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 200;
   margin: 0;
   padding-right: 20px;
 }
 
-header .navbar .divider {
-  padding-left: 10px;
-  padding-right: 10px;
-}
 
 header .navbar li a:hover {
   color:  #000000 !important;
@@ -117,28 +114,28 @@ header .navbar li a:hover {
 }
   
 #intro .headshot {
-  height: 100%;
-  text-align: justify;
-  position: relative;
+position: relative;
+text-align: left;
+width: 133%
 }
+
 #intro .block {
   height: 100%;
   text-align: justify;
   position: relative;
-  padding-right: 20vw;
+  padding-bottom: 30px;
+
 }
 
 
 #intro .block a {
   color: black;
   text-decoration: underline;
-  padding-right: 20vw;
 }
 
 #intro .block p {
   color: #22251a ;
   line-height: 20px;
-  padding-right: 20vw;
 }
 
 
@@ -189,13 +186,34 @@ header .navbar li a:hover {
 
 #writingandpres {
   overflow: hidden;
+  text-align: justify;
+
 }
 
 #writingandpres h2 {
   padding-bottom: 20px;
+  padding-top: 20px;
   font-weight: 400;
   text-transform: uppercase;
 
+}
+
+#writingandpres a {
+  color: gray;
+  text-decoration: underline;
+}
+
+
+#resources a {
+  color: black;
+}
+#resources h2 {
+  color: rgb(0, 0, 0);
+  text-decoration: underline;
+}
+
+#writingandpres footer a {
+  text-decoration: none;
 }
 
 /*---------------------------------------------
@@ -295,6 +313,7 @@ footer a {
 
 footer .footer-menu {
   padding-bottom: 25px;
+  text-decoration: none;
 }
 footer .footer-menu ul {
   margin: 0px;
