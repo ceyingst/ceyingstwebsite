@@ -17,8 +17,7 @@ permalink: /presentations-writing/
 
     <div class="item">
   
-      {% for essay in site.data.essays %}
-        <p>&#x2022;   "{{ essay.title }}," in {{ essay.pub }}, {{ essay.date }} </p>
+      {% for essay in site.data.essays %} <p>"{{ essay.title }}," in {{ essay.pub }}, {{ essay.date }} </p>
   
     </div>
     {% endfor %}
