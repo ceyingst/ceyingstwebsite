@@ -26,6 +26,7 @@ body {
 
 h1 {
   font-family: 'Afacad Flux', sans-serif;
+  padding-bottom: 10px;
 }
 
 h2 {
@@ -194,7 +195,6 @@ width: 133%
 
 #writingandpres h2 {
   padding-bottom: 20px;
-  padding-top: 20px;
   font-weight: 400;
   text-transform: uppercase;
 
