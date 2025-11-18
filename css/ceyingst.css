@@ -47,7 +47,8 @@ container {
 header {
   font-family: 'Urbanist', sans-serif;
   text-align: left;
-  padding-bottom: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   text-align: left;
   padding-left: 0;
 }
